@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:background="@color/black">
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:id="@+id/linerlayoutfortextview">
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/textview"
+                android:background="@color/black"
+                android:textColor="@color/white"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="520dp"
+            android:id="@+id/ll">
+        <GridView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/gridview"
+                android:cacheColorHint="#00000000"
+                android:numColumns="3"
+                android:horizontalSpacing = "0px"
+                android:verticalSpacing = "0px">
+        </GridView>
+
+    </LinearLayout>
+    <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:id="@+id/horizontalscrollview">
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:id="@+id/line">
+
+
+            <Button
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:text="新建分类"
+                    android:layout_marginLeft="8dp"
+                    android:id="@+id/button_new_classification"
+                    android:background="@drawable/buttonshape"
+                    android:textColor="@color/white"/>
+            <Button
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:text="删除分类"
+                    android:id="@+id/button_delete"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/buttonshape"
+                    android:textColor="@color/white"/>
+            <Button
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:text="按条件搜索"
+                    android:layout_marginLeft="8dp"
+                    android:id="@+id/button_search"
+                    android:background="@drawable/buttonshape"
+                    android:textColor="@color/white" />
+            <Button
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:text="本地图片"
+                    android:id="@+id/localimage"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/buttonshape"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:text="删除"
+                android:layout_gravity="top"
+                android:id="@+id/shanchu"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                android:background="@drawable/buttonshape"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:text="分类"
+                android:layout_gravity="bottom"
+                android:id="@+id/fenlei"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                android:background="@drawable/buttonshape"
+                android:textColor="@color/white"/>
+    </LinearLayout>
+</LinearLayout>

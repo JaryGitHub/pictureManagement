@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">pictureManagement</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_management__main">management_MainActivity</string>
+    <string name="title_activity_calendar__main">calendar_MainActivity</string>
+    <string name="title_activity_gallery__main">gallery_MainActivity</string>
+    <string name="title_activity_localimage_">localimage_Activity</string>
+    <string name="title_activity_photo_setup_">photoSetup_Activity</string>
+    <string name="title_activity_select_image_">selectImage_Activity</string>
+    <string name="title_activity_show_image_">showImage_Activity</string>
+    <string name="title_activity_show_local_image_">showLocalImage_Activity</string>
+</resources>
